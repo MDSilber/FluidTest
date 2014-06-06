@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B772F20F19412407001D682B /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B772F20E19412407001D682B /* SpriteKit.framework */; };
 		B77DD65B1940E46E00319472 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77DD65A1940E46E00319472 /* Foundation.framework */; };
 		B77DD65D1940E46E00319472 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77DD65C1940E46E00319472 /* CoreGraphics.framework */; };
 		B77DD65F1940E46E00319472 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77DD65E1940E46E00319472 /* UIKit.framework */; };
@@ -22,6 +23,11 @@
 		B77DD67C1940E46E00319472 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77DD6601940E46E00319472 /* CoreData.framework */; };
 		B77DD6841940E46E00319472 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B77DD6821940E46E00319472 /* InfoPlist.strings */; };
 		B77DD6861940E46E00319472 /* FluidTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B77DD6851940E46E00319472 /* FluidTestTests.m */; };
+		B77DD6911940E47C00319472 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B77DD6901940E47C00319472 /* ViewController.m */; };
+		B77DD6931940E4F300319472 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77DD6921940E4F300319472 /* CoreMotion.framework */; };
+		B77DD6961940E5A100319472 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = B77DD6951940E5A100319472 /* View.m */; };
+		B7A111DC19427E0100FEFA0F /* Particle.png in Resources */ = {isa = PBXBuildFile; fileRef = B7A111DB19427E0100FEFA0F /* Particle.png */; };
+		B7A111DF19427E5100FEFA0F /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = B7A111DD19427E5100FEFA0F /* MyParticle.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B772F20E19412407001D682B /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		B77DD6571940E46E00319472 /* FluidTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluidTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B77DD65A1940E46E00319472 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B77DD65C1940E46E00319472 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +60,13 @@
 		B77DD6811940E46E00319472 /* FluidTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FluidTestTests-Info.plist"; sourceTree = "<group>"; };
 		B77DD6831940E46E00319472 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B77DD6851940E46E00319472 /* FluidTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FluidTestTests.m; sourceTree = "<group>"; };
+		B77DD68F1940E47C00319472 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B77DD6901940E47C00319472 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B77DD6921940E4F300319472 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		B77DD6941940E5A100319472 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		B77DD6951940E5A100319472 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		B7A111DB19427E0100FEFA0F /* Particle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Particle.png; sourceTree = "<group>"; };
+		B7A111DD19427E5100FEFA0F /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = MyParticle.sks; path = ../MyParticle.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B772F20F19412407001D682B /* SpriteKit.framework in Frameworks */,
+				B77DD6931940E4F300319472 /* CoreMotion.framework in Frameworks */,
 				B77DD65D1940E46E00319472 /* CoreGraphics.framework in Frameworks */,
 				B77DD6611940E46E00319472 /* CoreData.framework in Frameworks */,
 				B77DD65F1940E46E00319472 /* UIKit.framework in Frameworks */,
@@ -103,6 +119,8 @@
 		B77DD6591940E46E00319472 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B772F20E19412407001D682B /* SpriteKit.framework */,
+				B77DD6921940E4F300319472 /* CoreMotion.framework */,
 				B77DD65A1940E46E00319472 /* Foundation.framework */,
 				B77DD65C1940E46E00319472 /* CoreGraphics.framework */,
 				B77DD65E1940E46E00319472 /* UIKit.framework */,
@@ -117,6 +135,12 @@
 			children = (
 				B77DD66B1940E46E00319472 /* AppDelegate.h */,
 				B77DD66C1940E46E00319472 /* AppDelegate.m */,
+				B77DD6941940E5A100319472 /* View.h */,
+				B77DD6951940E5A100319472 /* View.m */,
+				B7A111DD19427E5100FEFA0F /* MyParticle.sks */,
+				B7A111DB19427E0100FEFA0F /* Particle.png */,
+				B77DD68F1940E47C00319472 /* ViewController.h */,
+				B77DD6901940E47C00319472 /* ViewController.m */,
 				B77DD6711940E46E00319472 /* Images.xcassets */,
 				B77DD66E1940E46E00319472 /* FluidTest.xcdatamodeld */,
 				B77DD6631940E46E00319472 /* Supporting Files */,
@@ -230,6 +254,8 @@
 			files = (
 				B77DD6671940E46E00319472 /* InfoPlist.strings in Resources */,
 				B77DD6721940E46E00319472 /* Images.xcassets in Resources */,
+				B7A111DC19427E0100FEFA0F /* Particle.png in Resources */,
+				B7A111DF19427E5100FEFA0F /* MyParticle.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,8 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B77DD6961940E5A100319472 /* View.m in Sources */,
 				B77DD66D1940E46E00319472 /* AppDelegate.m in Sources */,
 				B77DD6701940E46E00319472 /* FluidTest.xcdatamodeld in Sources */,
+				B77DD6911940E47C00319472 /* ViewController.m in Sources */,
 				B77DD6691940E46E00319472 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,6 +475,7 @@
 				B77DD68B1940E46E00319472 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B77DD68C1940E46E00319472 /* Build configuration list for PBXNativeTarget "FluidTestTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +484,7 @@
 				B77DD68E1940E46E00319472 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
